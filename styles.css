@@ -22,7 +22,7 @@ body:hover{
   align-content: center;
 
   min-height: 100vh;
-  grid-template-columns: repeat(4, 400px);
+  grid-template-columns: repeat(4, 350px);
   grid-template-rows: minmax(200px, auto) repeat(5, 120px);
 }
 
