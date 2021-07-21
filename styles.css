@@ -10,17 +10,19 @@ body {
   background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c  51%, #00c3ff  100%);
 }
 body:hover{
-    background-position: right center; /* change the direction of the change here */
+    
     color: #fff;
     text-decoration: none;
 }
 
 .calculator-grid {
+    margin-top: 10px;
   display: grid;
   justify-content: center;
   align-content: center;
+
   min-height: 100vh;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(4, 400px);
   grid-template-rows: minmax(200px, auto) repeat(5, 120px);
 }
 
@@ -61,4 +63,28 @@ body:hover{
   color: white;
   font-size: 2.5rem;
 }
-
+div[class="calculator-grid"]{
+    max-height: 10px;
+    height: 50%;
+    }
+.text{
+    
+    background-image: linear-gradient(to right, #0099F7 0%, #F11712  51%, #0099F7  100%);
+    position: right center;
+    justify-content: center;
+    margin-left: 670px;
+    margin-right: 685px;
+    margin-top: 10px;
+    
+    font-size:40px;
+    text-decoration: dotted;
+    text-size-adjust: inherit;
+ 
+   
+    
+}
+.text:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
