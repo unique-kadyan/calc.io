@@ -20,9 +20,9 @@ body:hover{
   display: grid;
   justify-content: center;
   align-content: center;
-
+  flex: grid;
   min-height: 100vh;
-  grid-template-columns: repeat(4, 350px);
+  grid-template-columns: repeat(4, 150px);
   grid-template-rows: minmax(200px, auto) repeat(5, 120px);
 }
 
@@ -63,3 +63,28 @@ body:hover{
   color: white;
   font-size: 2.5rem;
 }
+div[class="calculator-grid"]{
+    max-height: 10px;
+    height: 50%;
+    }
+.text{
+    
+    background-image: linear-gradient(to right, #0099F7 0%, #F11712  51%, #0099F7  100%);
+    position: right center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    font-size:40px;
+    text-decoration: dotted;
+   
+ 
+   
+    
+}
+.text:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
