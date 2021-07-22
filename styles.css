@@ -71,12 +71,14 @@ div[class="calculator-grid"]{
     
     background-image: linear-gradient(to right, #0099F7 0%, #F11712  51%, #0099F7  100%);
     position: right center;
-    justify-content: center;
+    display:flex;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    
+    flex:wrap content;
     font-size:40px;
+    flex-wrap: wrap;
     text-decoration: dotted;
    
  
