@@ -21,7 +21,11 @@ body:hover{
   justify-content: center;
   align-content: center;
   flex: grid;
+  display:grid;
+   
   min-height: 100vh;
+  flex:wrap content;
+    flex-wrap: wrap;
   grid-template-columns: repeat(4, 150px);
   grid-template-rows: minmax(200px, auto) repeat(5, 120px);
 }
@@ -72,17 +76,14 @@ div[class="calculator-grid"]{
     background-image: linear-gradient(to right, #0099F7 0%, #F11712  51%, #0099F7  100%);
     position: right center;
     display:flex;
-    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    flex:wrap content;
+    flex-shrink: column;  
     font-size:40px;
-    flex-wrap: wrap;
+    position: relative;
     text-decoration: dotted;
-   
- 
-   
+
     
 }
 .text:hover {
