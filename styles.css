@@ -63,6 +63,14 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
   word-break: break-all;
 }
 
+         
+
+          .output:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
 .output .previous-operand {
   color: rgba(255, 255, 255, .75);
   font-size: 1.5rem;
