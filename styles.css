@@ -16,7 +16,7 @@ body:hover{
 }
 
 .calculator-grid {
-    margin-top: 10px;
+    margin-top: 15px;
   display: grid;
   justify-content: center;
   align-content: center;
